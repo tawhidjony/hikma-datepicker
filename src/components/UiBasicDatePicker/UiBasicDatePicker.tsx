@@ -18,7 +18,7 @@ interface UiDatePickersProps {
   disablePastDates?: boolean;
 }
 
-const UiDatepicker = forwardRef<HTMLInputElement, UiDatePickersProps>((props, ref) => {
+const UiBasicDatePicker = forwardRef<HTMLInputElement, UiDatePickersProps>((props, ref) => {
   const {
     className,
     selectedStyle,
@@ -341,4 +341,4 @@ const UiDatepicker = forwardRef<HTMLInputElement, UiDatePickersProps>((props, re
   );
 });
 
-export default UiDatepicker;
+export default UiBasicDatePicker;
