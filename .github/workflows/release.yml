@@ -19,10 +19,10 @@ jobs:
         with:
           node-version: "lts/*"
       - run: npm install
-      - run: npm run build
+      - run: npm run build:prod
       - run: npm audit signatures
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
