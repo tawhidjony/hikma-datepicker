@@ -23,7 +23,7 @@
     "clean": "rimraf dist",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "build:css": "postcss src/index.css -o dist/index.css",
-    "prepare": "npm run clean && npm run build && npm run build:css"
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -40,8 +40,11 @@
     "tailwindcss": "^3.4.14"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "husky": "^9.1.6",
     "postcss-cli": "^11.0.0",
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
