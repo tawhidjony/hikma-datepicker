@@ -8,6 +8,7 @@
     "dist",
     "README.md"
   ],
+  "homepage": "https://github.com/tawhidjony/hikma-datepicker",
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"
@@ -28,7 +29,6 @@
     "build:prod": "npm run clean && npm run build && npm run build:css",
     "test": "echo 'No tests specified'"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
@@ -55,5 +55,11 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tawhidjony/hikma-datepicker/issues"
+  },
+  "keywords":[
+    "datepicker", "date and time", "tailwindcss date picker", "time picker", "tailwindcss time picker"
+  ]
 }
