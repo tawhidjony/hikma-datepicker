@@ -23,7 +23,8 @@
     "clean": "rimraf dist",
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "build:css": "postcss src/index.css -o dist/index.css",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo 'No tests specified'"
   },
   "keywords": [],
   "author": "",
