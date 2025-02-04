@@ -6,8 +6,10 @@
 ## Description
 **hikma-datepicker** is a lightweight and flexible date picker reusable component, designed for easy integration into web applications. Customize date formats, styles, and locales effortlessly.
 
-![image info](./src/assets/datepicker.png)
 
+|Datepicker|Datepicker Range|
+|:-:|:-:|
+|![Datepicker](./src/assets/datepicker.png)|![Datepicker Range](./src/assets/datepicker_range.png)|
 
 ## Features
 - Simple and lightweight date picker.
