@@ -384,4 +384,6 @@ const UiDatePickerRange = forwardRef<HTMLInputElement, UiDatePickersProps>((prop
     </div>
   );
 });
+
+UiDatePickerRange.displayName = "UiDatePicker.Range";
 export default UiDatePickerRange;
