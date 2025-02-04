@@ -25,9 +25,10 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "build:css": "postcss src/index.css -o dist/index.css",
     "build:css:w": "npx @tailwindcss/cli -i src/index.css -o dist/index.css --watch",
+    "build:css:prod": "npx @tailwindcss/cli -i src/index.css -o dist/index.css --minify",
     "husky": "husky",
     "semantic-release": "semantic-release",
-    "build:prod": "npm run clean && npm run build && npm run build:css",
+    "build:prod": "npm run clean && npm run build && npm run build:css:prod",
     "test": "echo 'No tests specified'"
   },
   "author": "",
